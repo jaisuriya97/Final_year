@@ -1,0 +1,24 @@
+{
+  "name": "tender2.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "lite-server",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/contract": "^4.6.31",
+    "ethers": "^6.8.1",
+    "lite-server": "^2.6.1",
+    "truffle": "^5.11.5",
+    "truffle-contract": "^4.0.31",
+    "web3": "^4.2.2"
+  }
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500&family=Poppins:wght@100;300;400;500&display=swap"
+        rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+           
+        }
+        html,body{
+            background-color: #212529;
+        }
+        h1 {
+            font-family: 'Edu TAS Beginner', cursive;
+            font-family: 'Poppins', sans-serif;
+
+        }
+        .hero{
+            color: white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start bg-dark p-3">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                <use xlink:href="#bootstrap"></use>
+            </svg>
+        </a>
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="#" class="nav-link  px-3 text-white">Home</a></li>
+            <li></li>
+            <li> <span id="Account" class="nav-link px-3 text-white"></span></li>
+        </ul>
+
+
+        <div class="text-end">
+            <button type="button" class="btn btn-outline-light me-5">Login</button>
+            <button type="button" class="btn btn-warning me-5" ><a href="#" class="text-dark text-decoration-none">Sign-up</a></button>
+        </div>
+    </div>
+
+    <div class="px-4 py-5 my-5 text-center mt-5 hero" >
+        <h1 class="title">Revolutionizing Tendering with <br>Blockchain Technology</h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="fs-3 text-secondary ">create a secure tender using E-tender</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <button type="button" class="btn btn-warning btn-lg text-dark px-4 gap-3"><a href="create_tender.html"
+                        class="text-dark text-decoration-none">Create Tender</a>  
+            </div>
+
+        </div>
+    </div>
+
+
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
